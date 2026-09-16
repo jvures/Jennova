@@ -26,6 +26,9 @@ header{
     min-height: 100vh;
     
 }
+body{
+    margin: 0;
+}
 h1{
     color: #3c2a27;
 }
@@ -104,3 +107,4 @@ ul li a{
     transform: scale(1.05);
     border: 2px solid white;
 }
+
