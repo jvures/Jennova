@@ -40,6 +40,9 @@ h1{
 .beauty{
     color: burlywood;
 }
+h2{
+    margin-right: 20px;
+}
 body{
     padding: 0;
     margin: 0;
