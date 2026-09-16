@@ -1,40 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JENNOVA</title>
-    <link rel="stylesheet" href="hair.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-</head>
-<body>
-    <header>
-        <nav>
-            <h1>JEN<strong class="nova">NOVA</strong></h1>
-            
-        <ul>
-            
-            <li><a href="index.html"><i class="fa-solid fa-shop"></i></a></li>
-            <li><a href="decouvrir.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-phone-flip"></i></a></li>
-        </ul>
-        </nav>
-        <div class="presentation">
-            <H2>Revelez votre <span class="beauty">beauté</span></H2>
-            <p>Découvrez notre sélection de mèches et perruques</p>
-        </div>
+*{
+    box-sizing: border-box;
+}
 
-        <section class="decouvrir">
-        <ul>
-            <li><a href="decouvrir.html" class="btn-decouvrir"><button class="btn">DÉCOUVRIR</button></a></li>
-        </ul>
-    </section>
-    </header>
+@media screen and (max-widht: 480px){
+    h1{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .presentation p{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
     
-    
-    
+}
 
-    
 
-</body>
-</html>
+html, body{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+header{
+    background-image: url(images/hair.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:burlywood;
+    font-weight: lighter;
+}
+.nova{
+    color: #9a685b;;
+}
+.beauty{
+    color: burlywood;
+}
+h2{
+    margin-right: 20px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+   
+    border-bottom: 1px solid rgba(255, 255, 255, 0,15);
+    padding: 1px 3%;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    color: burlywood;
+}
+.presentation{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10%;
+    width: 90%;
+    position: relative;
+    left: 30px;
+  
+}
+.presentation h2,
+.presentation p{
+    text-shadow: 1px 1px 4px black;
+    
+}
+
+.decouvrir{
+    text-align: center;
+    margin-top: 30px;
+}
+.decouvrir ul{
+    list-style: none;
+
+}
+.decouvrir a{
+    text-decoration: none;
+
+}
+
+.btn{
+    font-size: 30px;
+    border: 2px solid ;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 20px;
+    background: transparent;
+    color: beige;
+    position: relative;
+    top: 30px;
+    margin-left: -40px;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    border: 2px solid white;
+}
