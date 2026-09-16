@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-widht: 760px){
+@media screen and (max-width: 760px){
     h1{
         font-size: 28px;
         margin-left: 5%;
