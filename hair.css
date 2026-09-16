@@ -31,10 +31,11 @@ body{
     margin: 0;
 }
 h1{
-    color: #3c2a27;
+    color: burlywood;
+    font-weight: lighter;
 }
 .nova{
-    color: burlywood;
+    color: #3c2a27;
 }
 .beauty{
     color: burlywood;
@@ -66,7 +67,7 @@ ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    color: beige;
+    color: burlywood;
 }
 .presentation{
     text-align: center;
@@ -74,12 +75,14 @@ ul li a{
     color: white;
     padding-top: 10%;
     width: 90%;
-    margin: 0;
+    position: relative;
+    left: 30px;
+  
 }
 .presentation h2,
 .presentation p{
     text-shadow: 1px 1px 4px black;
-    margin-left: 10px;
+    
 }
 
 .decouvrir{
