@@ -31,11 +31,11 @@ body{
     margin: 0;
 }
 h1{
-    color: burlywood;
+    color: #3c2a27;
     font-weight: lighter;
 }
 .nova{
-    color: #3c2a27;
+    color: burlywood;
 }
 .beauty{
     color: burlywood;
@@ -48,11 +48,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(20, 20, 30, 0,4);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: black;
+   
     border-bottom: 1px solid rgba(255, 255, 255, 0,15);
-    padding: 8px 3%;
+    padding: 1px 3%;
     box-sizing: border-box;
 }
 nav ul{
@@ -65,7 +64,7 @@ nav ul{
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: beige;
     font-size: 20px;
     color: burlywood;
 }
