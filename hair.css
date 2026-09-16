@@ -72,6 +72,8 @@ ul li a{
     font-size: 30px;
     color: white;
     padding-top: 5%;
+    width: 90%;
+    margin: 0;
 }
 .presentation h2,
 .presentation p{
