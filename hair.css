@@ -20,7 +20,7 @@ html, body{
     max-width: 100%;
     padding: 0;
     margin: 0;
-    background-color: red;
+    background-color: #000;
     
 }
 
@@ -29,7 +29,7 @@ header{
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    height: 100dvh;
+    min-height: 100lvh ;
     padding-bottom: env(safe-area-inset-bottom, 0px);
     margin: 0;
     box-sizing: border-box;
