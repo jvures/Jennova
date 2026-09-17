@@ -126,3 +126,36 @@ ul li a{
     transform: scale(1.05);
     border: 2px solid white;
 }
+
+.contact{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.contact ul, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn2{
+    font-size: 30px;
+    border: 2px solid ;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 20px;
+    background: transparent;
+    color: beige;
+    position: relative;
+    top: 30px;
+    margin-left: -40px;
+}
+.btn2:hover{
+     background-color: white;
+    color: black;
+    transform: scale(1.05);
+    border: 2px solid white;
+}
+
+.buttons{
+    padding-bottom: 50px;
+}
