@@ -27,20 +27,19 @@ header{
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     
 }
 body{
     margin: 0;
+    padding: 0;
 }
 h1{
     color:burlywood;
     font-weight: lighter;
 }
-.nova{
-    color: #9a685b;;
-}
+
 .beauty{
     color: burlywood;
 }
