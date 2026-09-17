@@ -30,8 +30,9 @@ header{
     background-position: center;
     min-height: 100vh;
     height: 100dvh;
-    overflow: hidden;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
     margin: 0;
+    box-sizing: border-box;
     
 }
 body{
