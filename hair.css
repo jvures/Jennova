@@ -20,7 +20,12 @@ html, body{
     max-width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #000;
+    background: linear-gradient(to bottom,
+    black 0%,
+    black 85%,
+    burlywood 85%,
+    burlywood 100%
+    );
     
 }
 
