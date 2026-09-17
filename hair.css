@@ -121,8 +121,8 @@ ul li a{
     
 }
 .btn:hover{
-    background-color: white;
-    color: black;
+    
+    color: white;
     transform: scale(1.05);
     border: 2px solid white;
 }
@@ -150,8 +150,8 @@ ul li a{
     margin-left: -40px;
 }
 .btn2:hover{
-     background-color: white;
-    color: black;
+     
+    color: white;
     transform: scale(1.05);
     border: 2px solid white;
 }
