@@ -1,3 +1,13 @@
+@media (max-width: 480) {
+    h1{
+        font-size: 15px;
+
+    }
+    .articles{
+        width: 90%;
+    }
+}
+
 nav{
     display: flex;
      background: black;
@@ -12,37 +22,59 @@ nav ul a{
     text-decoration: none;
     color: burlywood;
 }
+
 .JNV{
     padding-left: 30%;
     color: burlywood;
     padding-top: 5px;
     font-weight: lighter;
 }
-body{
-    background-color: burlywood;
-}
+
 .selection{
     text-align: center;
     font-size: 20px;
-    color: beige;
+    color: black;
     text-shadow: 1px 1px 4px black;
 }
-img{
-    width: 200px;
+.articles img{
+    width: 100%;
+    height: auto;
+    display: block;
     
+
 }
 h3{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: beige;
+    color: burlywood;
     text-shadow: 1px 1px 4px black;
 }
 button{
-    color: noir;
+    color: white;
+
 }
 .btn-cmd{
    
-    border-radius: 20px ;
     font-size: 25px;
-    background-color: beige;
+    background-color: black;
+}
+.produit-text{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid white;
+    
+}
+
+.articles{
+    width: 350px;
+    background-color: black;
+    border-radius: 25px;
+    overflow: hidden;
+   
+}
+.liste-articles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
