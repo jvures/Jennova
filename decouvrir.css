@@ -1,10 +1,12 @@
 @media (max-width: 480) {
-    h1{
-        font-size: 15px;
-
+    nav{
+        padding: 10px 15px;
     }
-    .articles{
-        width: 90%;
+    .JNV{
+        font-size: 25%;
+    }
+    nav ul{
+        font-size: 20px;
     }
 }
 
