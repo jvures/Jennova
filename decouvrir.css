@@ -11,12 +11,14 @@
 }
 
 nav{
-    display: flex;
+     display: flex;
      background: black;
+     justify-content: space-between;
      align-items: center;
-     padding: 10px 30px;
+     padding: 10px 20px;
 }
 nav ul{
+    display: flex;
     list-style: none;
     font-size: 30px;
     margin: 0;
@@ -33,6 +35,9 @@ nav ul a{
     padding-left: 30%;
     color: burlywood;
     padding-top: 5px;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
     font-weight: lighter;
 }
 
