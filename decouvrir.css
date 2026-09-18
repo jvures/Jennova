@@ -4,7 +4,8 @@
     }
     .JNV{
         font-size: 25%;
-        padding: 0;
+        padding-left: 0;
+        padding-top: 5px;
         
     }
     nav ul{
@@ -46,7 +47,7 @@ nav ul a{
     position: absolute;
     left: 50%;
     color: burlywood;
-    padding-top: 5px;
+    
     font-weight: lighter;
     padding: 0;
     margin: 0;
