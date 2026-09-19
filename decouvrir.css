@@ -138,9 +138,17 @@ button{
     font-size: 30px;
     text-align: center;
     width: 100%;
+    margin-top: 0;
 }
 .fin{
     text-align: center;
     width: 100%;
-    padding-bottom: 20%;
+    padding-bottom: 0;
+}
+h4{
+    margin-top: 20px;
+}
+
+h4 + p{
+    margin-top: 0;
 }
